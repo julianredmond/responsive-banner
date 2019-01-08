@@ -8,7 +8,31 @@ html {
 }
 
 .btn {
-  color: #fff;
   background-color: #495562;
   border: 2px solid #97a49b;
+}
+
+.btn:hover {
+  background-color: #efefef;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .height {
+    max-height: 500px;
+    position: relative;
+  }
+
+  .bground {
+    background-color: transparent;
+    position: absolute;
+    top: 15em;
+    background-image: linear-gradient(to bottom, rgba(73, 85, 98, 0), rgba(73, 85, 98, .9));
+  }
+
 }
