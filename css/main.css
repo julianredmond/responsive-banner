@@ -1,0 +1,14 @@
+html {
+  font-family: Georgia, serif;
+  color: #fff;
+}
+
+.bground {
+  background-color: #495562;
+}
+
+.btn {
+  color: #fff;
+  background-color: #495562;
+  border: 2px solid #97a49b;
+}
